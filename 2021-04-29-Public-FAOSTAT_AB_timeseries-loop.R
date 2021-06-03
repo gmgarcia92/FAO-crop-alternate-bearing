@@ -128,7 +128,7 @@ outdat = outdat %>%
 #########
 
 
-#to plot figure 3a and 4a
+#to plot figure 3a and 3c
 
 pdf("AC1_Coef_species2.pdf", height = 5, width = 7)
 par(xpd=F)
