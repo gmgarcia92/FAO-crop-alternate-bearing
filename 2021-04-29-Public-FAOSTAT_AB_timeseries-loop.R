@@ -1,8 +1,8 @@
 # analysis of FAO data for alternate-bearing crops
 # see data at http://www.fao.org/faostat/en/#data/QC
 
-
-# This code is for compiling the dataset used in the phylogenetically corrected linear models in the "FAO_AB_phylogeny" R file
+# Run this code file first
+## This code is for compiling the dataset used in the phylogenetically corrected linear models in the "FAO_AB_phylogeny" R file
 
 
 library(tidyverse)
@@ -18,7 +18,7 @@ library(diptest)
 ntop = 10
 
 
-setwd("/Users/gabrielagarcia/Documents/AB_Pollinator_FAO")
+setwd("XXX")
 alldat = read.csv("GG-FAOSTAT_AB_crops.csv")
 traits = read.csv("Polllination and Alternate Bearing in crops - GG_ABcrops.csv")
 
